@@ -1,5 +1,4 @@
 # Silly-Counter
 <br/>
 
-<img width="1210" alt="Screenshot 2020-03-09 at 3 00 19 PM" src="https://user-images.githubusercontent.com/14003377/76199927-bd1fc580-6216-11ea-8108-1d3ddb6e6732.png">
-
+![Screen Shot 1941-12-19 at 6 33 55 PM](https://user-images.githubusercontent.com/14003377/76215369-a1c3b300-6234-11ea-98db-6fca04283da1.png)
