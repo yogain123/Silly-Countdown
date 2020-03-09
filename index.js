@@ -8,9 +8,9 @@ function startTimer() {
     if (sec < 0) {
       sec = 0;
     }
-    document.getElementById("timer").innerHTML = hr + ":" + min + ":" + sec;
+    printer(hr, min, sec);
     if (hr == 0 && min == 0 && sec == 0) {
-      document.getElementById("timer").innerHTML = hr + ":" + min + ":" + sec;
+      printer(hr, min, sec);
       clearInterval(timer);
     }
     if (sec == 0) {
@@ -27,4 +27,17 @@ function startTimer() {
       sec = sec;
     }
   }, 1000);
+}
+
+function printer(hr, min, sec) {
+  if (sec < 10) {
+    sec = "0" + sec;
+  }
+  if (min < 10) {
+    min = "0" + min;
+  }
+  if (hr < 10) {
+    hr = "0" + hr;
+  }
+  document.getElementById("timer").innerHTML = hr + ":" + min + ":" + sec;
 }
