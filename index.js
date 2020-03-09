@@ -18,7 +18,7 @@ function startTimer() {
       min--;
     }
     if (min == 0 && hr != 0) {
-      min = 60;
+      min = 59;
       hr--;
     }
     if (hr == 0) {
