@@ -21,11 +21,6 @@ function startTimer() {
       min = 59;
       hr--;
     }
-    if (hr == 0) {
-      hr = 0;
-      min = min;
-      sec = sec;
-    }
   }, 1000);
 }
 
