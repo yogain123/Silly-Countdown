@@ -25,14 +25,8 @@ function startTimer() {
 }
 
 function printer(hr, min, sec) {
-  if (sec < 10) {
-    sec = "0" + sec;
-  }
-  if (min < 10) {
-    min = "0" + min;
-  }
-  if (hr < 10) {
-    hr = "0" + hr;
-  }
+  sec = sec < 10 ? "0" + sec : sec;
+  min = min < 10 ? "0" + min : min;
+  hr = hr < 10 ? "0" + hr : hr;
   document.getElementById("timer").innerHTML = hr + ":" + min + ":" + sec;
 }
