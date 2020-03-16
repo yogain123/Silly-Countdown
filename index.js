@@ -13,6 +13,10 @@ function startTimer() {
       printer(hr, min, sec);
       clearInterval(timer);
     }
+    if (min == 0 && sec == 0) {
+      min = 60;
+      hr--;
+    }
     if (sec == 0) {
       sec = 60;
       min--;
